@@ -1,13 +1,12 @@
-package com.project.adf;
+package com.movie_list;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AdfApplication {
+public class MovieApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AdfApplication.class, args);
+		SpringApplication.run(MovieApplication.class, args);
 	}
-
 }

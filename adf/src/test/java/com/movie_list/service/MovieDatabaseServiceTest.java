@@ -65,7 +65,7 @@ public class MovieDatabaseServiceTest {
                 Arrays.asList(new Movie(2L, "Movie1", "Director1", 1999, "sci-fi"),
                         new Movie(3L, "Movie1", "Director1", 1998, "sci-fi")));
 
-        List<Movie> movies = movieDatabaseServiceTest.search(moviegSearch);
+        List<Movie> movies = movieDatabaseServiceTest.search(movieSearch);
 
         assertThat(movies).hasSize(2)
                 .contains(new Movie(2L, "Movie1", "Director1", 1999, "sci-fi"));

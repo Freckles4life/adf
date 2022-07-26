@@ -1,6 +1,8 @@
 package com.movie_list.service;
 
 
+    import com.movie_list.model.Movie;
+    import com.movie_list.model.MovieSearch;
     import org.springframework.stereotype.Service;
 
     import java.util.List;

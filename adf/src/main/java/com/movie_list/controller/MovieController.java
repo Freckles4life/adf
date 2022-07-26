@@ -1,4 +1,5 @@
 package com.movie_list.controller;
+
 import com.movie_list.service.MovieRecordService;
 import com.movie_list.model.Movie;
 import com.movie_list.model.MovieSearch;
@@ -39,7 +40,7 @@ public class MovieController {
             return "search1";
         }
         List<Movie> movies = movieRecordService.search(movieSearch);
-        model.addAttribute("movies", movies;
+        model.addAttribute("movies", movies);
         return "result";
     }
 

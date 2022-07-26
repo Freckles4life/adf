@@ -75,7 +75,7 @@ public class MovieDatabaseService implements MovieRecordService {
 
     @Override
     public List<Movie> findByTitleAndDirector(String title, String director) {
-        List<Movie> result = movieRepository.findByTitleAndArtist(title, director;
+        List<Movie> result = movieRepository.findByTitleAndDirector(title, director);
         if (result.isEmpty()) {
             throw new BadRequestException("There is no such movie");
         }

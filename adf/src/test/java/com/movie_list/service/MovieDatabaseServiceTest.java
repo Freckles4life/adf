@@ -117,7 +117,7 @@ public class MovieDatabaseServiceTest {
             movieDatabaseServiceTest.getById(24L);
             fail();
         } catch (Exception e) {
-            assertEquals("Movie record does not exist", e.getMessage());
+            assertEquals("Movie does not exist", e.getMessage());
         }
 
         verify(repository).findById(24L);

@@ -162,5 +162,4 @@ public class MovieControllerTest {
                 .andReturn();
 
     }
-}{
 }
